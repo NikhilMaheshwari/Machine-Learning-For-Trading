@@ -1,0 +1,8 @@
+Ranges 
+- limit on value for X
+ so, in the case of portfolio, we should be looking between value of 0 to 1 as optimization max value is 100%;
+ 
+ Constrains
+ - properties of X that must be true
+ so for example of portfolio, sum of allocation should be equal to 1
+ 
