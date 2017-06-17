@@ -1,0 +1,27 @@
+Portfolio Optimization
+- Given a set of assets and timeperiod, find an allocation of funds to assets that maximizes its performance
+
+Performance
+- We could choose from number of matrices, including cumulative returm, volatility or risk, and risk adjusted return which is sharpe ratio
+
+Example Portfolio
+
+.25  GOOG
+.25  AAPL
+.25  GLD
+.25  XOM
+
+from begining of 2010 to end of 2010 
+
+if optimized using sharpe ration, allocation that gives max return is 
+0.0 GOOG
+.40 AAPL
+.60 GLD
+0.0 XOM
+
+
+Framing the problem for optimization
+- provide the function to minimization f(x) => where here X is allocations where we want optimizer to give best alloactions for us
+ and as we want to optimize for share raion, function is -1 * sharpe ratio (Negetive is because function with give us minimum and then negetive makes it max)
+- provide initial guess for X
+- call the optimizer
