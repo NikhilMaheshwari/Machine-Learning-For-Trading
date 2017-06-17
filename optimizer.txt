@@ -1,0 +1,20 @@
+Optimizer is algorithm that can do following things
+- Find minimum values of a function
+- build parameterized models based on data
+- refine allocations to stock in portfolio
+
+How to use an optimizer 
+- Provide a function to minimize
+- provide an initial guess
+- call the optimizer
+
+We can use gradient descent for finding minimizer. there are multiple methods that we can use in place of gradient descent
+
+Convex problem 
+- choose two points 
+- draw a line, if line is above graph for all points then it is convex
+- it has only one local minima
+- No flat regions in graph
+
+Parametized Model
+- example => f(x) = mx + b
